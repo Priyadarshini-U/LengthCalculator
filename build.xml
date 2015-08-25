@@ -8,9 +8,9 @@
     <mkdir dir="build/classes"/>
     <javac srcdir="src;Test" destdir="build/classes">
       <classpath>
-        <pathelement path="/Users/admin/IdeaProjects/Exercise1/lib/hamcrest-library-1.3.jar"/>
-        <pathelement path="/Users/admin/IdeaProjects/Exercise1/lib/hamcrest-core-1.3.jar"/>
-        <pathelement path="/Users/admin/IdeaProjects/Exercise1/lib/junit-4.11.jar"/>
+        <pathelement path="lib/hamcrest-library-1.3.jar"/>
+        <pathelement path="lib/hamcrest-core-1.3.jar"/>
+        <pathelement path="lib/junit-4.11.jar"/>
       </classpath>
     </javac>
 
@@ -20,8 +20,8 @@
   <target name="runjUnit">
     <junit printsummary="yes" haltonfailure="true">
       <classpath>
-        <pathelement path="/Users/admin/IdeaProjects/Exercise1/lib/hamcrest-library-1.3.jar"/>
-        <pathelement path="/Users/admin/IdeaProjects/Exercise1/lib/hamcrest-core-1.3.jar"/>
+        <pathelement path="lib/hamcrest-library-1.3.jar"/>
+        <pathelement path="lib/hamcrest-core-1.3.jar"/>
         <pathelement location="lib/junit-4.11.jar"/>
         <pathelement location="build/classes"/>
       </classpath>
