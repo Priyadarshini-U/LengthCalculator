@@ -1,14 +1,22 @@
-# com.twu.geometry.Coordinate.LengthCalculator
+#LineLengthCalculator
 
-## Problem Description
+###Problem Description
 
-##### calculate length of line given end points
+    To calculate the length of a line given its end points
 
-##Environment Setup
-#####java JDK , ant
+###Environment Setup
 
-##Build
-##### ant compile
+    ~java JDK
+    ~ant
 
-##Run
-###ant runjUnit
+###Building the codebase
+
+    Run the following command from the Terminal in your project home directory:
+
+    > ant compile
+
+###Running the codebase
+
+    Run the following command from the Terminal in your project home directory:
+
+    > ant runjUnit

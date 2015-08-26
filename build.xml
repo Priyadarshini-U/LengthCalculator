@@ -4,7 +4,7 @@
     <delete dir="build"/>
   </target>
 
-  <target name="compile">
+  <target name="compile" depends="clean">
     <mkdir dir="build/classes"/>
     <javac srcdir="src;test" destdir="build/classes">
       <classpath>
@@ -28,7 +28,7 @@
       <batchtest fork="yes" >
         <formatter type="plain"/>
         <fileset dir="test">
-          <include name="**/*Test*.java"/>
+          <include name="LineTest.java"/>
         </fileset>
       </batchtest>
     </junit>
