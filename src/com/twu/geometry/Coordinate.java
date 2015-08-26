@@ -4,17 +4,17 @@ package com.twu.geometry;
  * Created by admin on 25/08/15.
  */
 public class Coordinate {
-    int x,y;
+    float x,y;
 
-    public int getX() {
+    public float getX() {
         return x;
     }
 
-    public int getY() {
+    public float getY() {
         return y;
     }
 
-    public Coordinate(int x, int y) {
+    public Coordinate(float x, float y) {
         this.x=x;
         this.y=y;
     }

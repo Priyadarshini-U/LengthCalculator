@@ -26,7 +26,7 @@
         <pathelement location="build/classes"/>
       </classpath>
       <batchtest fork="yes">
-        <fileset dir="Test">
+        <fileset dir="test">
           <include name="**/*Test*.java"/>
         </fileset>
       </batchtest>
