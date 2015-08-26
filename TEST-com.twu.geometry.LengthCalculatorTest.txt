@@ -1,9 +1,0 @@
-Testsuite: com.twu.geometry.LengthCalculatorTest
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
-
-Testcase: shouldReturnActualLengthforEndPoints0N0and1N1 took 0.002 sec
-Testcase: shouldReturnActualLengthforEndPoints_1N_1and2N1 took 0 sec
-Testcase: shouldReturnActualLengthforEndPointsWithDecimalValues took 0 sec
-Testcase: shouldReturnActualLengthforEndPoints_1N_1and_2N_1 took 0 sec
-Testcase: shouldReturnLength0ForSameEndPoints took 0 sec
-Testcase: shouldReturnActualLengthforEndPoints1N1and_2N_1 took 0 sec
